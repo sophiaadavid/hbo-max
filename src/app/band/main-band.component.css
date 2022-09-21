@@ -1,0 +1,10 @@
+.section-left-align-parent{
+    background-position: 70%, 50%;
+    position: relative;
+}
+
+.background-image{
+    background-image: 'bg-image';
+    src: "/assets/hp-hero-hotd-sept-desktop-2.jpg";
+    background-size: cover;
+}
