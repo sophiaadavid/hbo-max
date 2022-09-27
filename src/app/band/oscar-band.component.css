@@ -1,0 +1,158 @@
+/**
+      * ----------------------------------------
+      * Emmy
+      * ----------------------------------------
+      */
+      .max-section-emmy s {
+        font-size: 60%;
+        text-decoration: none;
+        vertical-align: super;
+      }
+      
+      .max-section-emmy {
+        padding-top: 2rem !important;
+        padding-bottom: 1rem !important;
+      }
+      
+      .max-section-emmy .max-section-emmy-left {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 2rem !important;
+      }
+      
+      .max-section-emmy .max-section-emmy-right {
+        padding-left: 40px !important;
+      }
+      
+      .max-section-emmy h2 {
+        margin-top: 0rem !important;
+        font-size: 2em !important;
+        color: #d7b517;
+      }
+      
+      .max-section-emmy h4 {
+        margin-bottom: 2rem !important;
+        margin-top: 2rem !important;
+        font-size: 1.3em !important;
+      }
+      
+      .max-section-emmy a {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+      }
+      
+      .max-section-emmy .text {
+        margin-top: .8rem !important;
+      }
+      
+      .max-section-emmy .max-section-emmy-left p {
+        margin-top: .5rem !important;
+        margin-bottom: 1rem !important;
+        font-size: .9em !important;
+        text-align: center;
+      }
+      
+      .max-section-emmy .emmy-img-container p {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        font-size: .9em !important;
+        text-align: center;
+        line-height: 1.4;
+      }
+      
+      .max-section-emmy p small {
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        line-height: 19px !important;
+        margin-top: 0 !important;
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+      }
+      
+      .max-section-emmy img {
+        border: 2px solid #a5831c;
+        box-sizing: border-box;
+        border-radius: 5px;
+      }
+      
+      .max-section-emmy .emmy-img-container {
+        padding-left: 47px !important;
+        padding-right: 0px !important;
+        margin-bottom: 1rem;
+      }
+      
+      @media (max-width: 992px) {
+        .max-section-emmy {
+          padding-top: 3rem !important;
+        }
+      
+        .max-section-emmy .max-section-emmy-left {
+          flex: unset;
+          max-width: 100%;
+          padding-bottom: 3rem !important;
+          padding-right: 15px !important;
+          padding-left: 15px !important;
+        }
+      
+        .max-section-emmy .max-section-emmy-right {
+          flex: unset;
+          max-width: 100%;
+          padding-right: 15px !important;
+          padding-left: 15px !important;
+        }
+      
+        .max-section-emmy h2 {
+          max-width: 500px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      
+        .max-section-emmy h4 {
+          margin-bottom: 1.5rem !important;
+          margin-top: 1rem !important;
+          font-size: 1.3em !important;
+        }
+      
+        .max-section-emmy p small {
+          margin-bottom: 0.5rem !important;
+        }
+      
+        .max-section-emmy .emmy-img-container {
+          padding-left: 23px !important;
+          padding-right: 23px !important;
+        }
+      }
+      
+      @media (max-width: 540px) {
+        .max-section-emmy h2 {
+          font-size: 1.3em !important;
+        }
+      
+        .max-section-emmy h4 {
+          font-size: 1em !important;
+        }
+      
+        .max-section-emmy p small {
+          max-width: 230px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 0.8rem !important;
+        }
+      
+        .max-section-emmy .emmy-img-container {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+      
+        .max-section-emmy .max-section-emmy-right {
+          flex: unset;
+          max-width: 100%;
+          padding-right: 20px !important;
+          padding-left: 20px !important;
+        }
+        .kuxDSb {
+            background-size: cover;
+            background-position: center center;
+            background-image: ".assets/hp-emmy-bg-desktop.jpg";
+          }
+      }

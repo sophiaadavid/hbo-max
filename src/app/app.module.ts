@@ -8,7 +8,8 @@ import { SecNavBarComponent } from './navigation/sec-nav-bar/sec-nav-bar.compone
 import { FooterComponent } from './navigation/footer/footer.component';
 import { TopCarouselComponent } from './carousel/top-carousel.component';
 import { MainBandComponent } from './band/main-band.component';
-
+import { BottomAccordianComponent } from './accordian/bottom-accordian.component';
+import {OscarBandComponent} from "./band/oscar-band.component"
 
 @NgModule({
   declarations: [
@@ -17,7 +18,9 @@ import { MainBandComponent } from './band/main-band.component';
     SecNavBarComponent,
     FooterComponent,
     MainBandComponent,
-    TopCarouselComponent
+    TopCarouselComponent,
+    BottomAccordianComponent,
+    OscarBandComponent
   ],
   imports: [
     BrowserModule,
