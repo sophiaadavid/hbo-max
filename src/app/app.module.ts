@@ -10,6 +10,11 @@ import { TopCarouselComponent } from './carousel/top-carousel.component';
 import { MainBandComponent } from './band/main-band.component';
 import { BottomAccordianComponent } from './accordian/bottom-accordian.component';
 import {OscarBandComponent} from "./band/oscar-band.component"
+import { SignInLayoutComponent } from './layout/signin-layout.component';
+import { HomeLayoutComponent } from './routing/home-layout.component';
+import { SignUpLayoutComponent } from './routing/sign-up-layout.component';
+import { ViewPlansLayoutComponent } from './routing/view-plans-layout.component';
+import { SeeDetailsLayoutComponent } from './routing/see-details-layout.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import {OscarBandComponent} from "./band/oscar-band.component"
     MainBandComponent,
     TopCarouselComponent,
     BottomAccordianComponent,
-    OscarBandComponent
+    OscarBandComponent,
+    SignInLayoutComponent,
+    HomeLayoutComponent,
+    SignUpLayoutComponent,
+    ViewPlansLayoutComponent,
+    SeeDetailsLayoutComponent
   ],
   imports: [
     BrowserModule,
