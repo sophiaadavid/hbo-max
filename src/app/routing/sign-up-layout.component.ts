@@ -6,5 +6,5 @@ import { Component } from "@angular/core";
     styleUrls: ["sign-up-layout.component.css"]
 })
 export class SignUpLayoutComponent{
-
+    
 }
