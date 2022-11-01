@@ -15,6 +15,8 @@ import { HomeLayoutComponent } from './routing/home-layout.component';
 import { SignUpLayoutComponent } from './routing/sign-up-layout.component';
 import { ViewPlansLayoutComponent } from './routing/view-plans-layout.component';
 import { SeeDetailsLayoutComponent } from './routing/see-details-layout.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './navigation/user-info.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +32,13 @@ import { SeeDetailsLayoutComponent } from './routing/see-details-layout.componen
     HomeLayoutComponent,
     SignUpLayoutComponent,
     ViewPlansLayoutComponent,
-    SeeDetailsLayoutComponent
+    SeeDetailsLayoutComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
