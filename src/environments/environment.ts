@@ -3,6 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  firebase: {
+    projectId: 'hello-world-app-bc466',
+    appId: '1:896772105337:web:dfa84e4c8b411b3e4ce0a8',
+    databaseURL: 'https://hello-world-app-bc466-default-rtdb.firebaseio.com',
+    storageBucket: 'hello-world-app-bc466.appspot.com',
+    apiKey: 'AIzaSyCdA5oBRGPfuxglY0_gtRN9hyFrJR_7DBE',
+    authDomain: 'hello-world-app-bc466.firebaseapp.com',
+    messagingSenderId: '896772105337',
+    measurementId: 'G-WXJSD4E0CF',
+  },
   production: false
 };
 

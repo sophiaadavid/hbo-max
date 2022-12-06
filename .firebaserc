@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "hello-world-app-bc466"
+  },
+  "targets": {
+    "hello-world-app-bc466": {
+      "hosting": {
+        "hello-world-app": [
+          "hello-world-app-bc466"
+        ]
+      }
+    }
   }
 }

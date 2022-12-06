@@ -6,6 +6,8 @@ import { HomeLayoutComponent } from './routing/home-layout.component';
 import { SignUpLayoutComponent } from './routing/sign-up-layout.component';
 import { ViewPlansLayoutComponent } from './routing/view-plans-layout.component';
 import { SeeDetailsLayoutComponent } from './routing/see-details-layout.component';
+import { AppProductComponent} from "./routing/app-product/app-product.component";
+import { AuthComponent } from './auth/auth.component';
 
 const routes: Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -13,7 +15,8 @@ const routes: Routes = [
   {path: 'Home', component: HomeLayoutComponent},
   {path: 'Sign-up', component: SignUpLayoutComponent},
   {path: 'View-plans', component: ViewPlansLayoutComponent},
-  {path: 'See-details', component:SeeDetailsLayoutComponent}
+  {path: 'See-details', component:SeeDetailsLayoutComponent},
+  {path: 'admin', component: AuthComponent}
 ];
 
 @NgModule({

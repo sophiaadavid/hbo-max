@@ -17,6 +17,12 @@ import { ViewPlansLayoutComponent } from './routing/view-plans-layout.component'
 import { SeeDetailsLayoutComponent } from './routing/see-details-layout.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './navigation/user-info.component';
+import { environment } from 'src/environments/environment';
+import {AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AppProductComponent } from './routing/app-product/app-product.component';
+import { FormsModule } from '@angular/forms';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -33,12 +39,17 @@ import { UserInfoComponent } from './navigation/user-info.component';
     SignUpLayoutComponent,
     ViewPlansLayoutComponent,
     SeeDetailsLayoutComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AppProductComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFirestoreModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
